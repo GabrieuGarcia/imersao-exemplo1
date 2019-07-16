@@ -2,8 +2,11 @@ package br.com.tt.exerciciobanco.model;
 
 import br.com.tt.exerciciobanco.enumeration.TipoMovimentacaoEnum;
 
+import java.time.LocalDateTime;
+
 public class Movimento {
 
+    private LocalDateTime dataMovimento;
     private TipoMovimentacaoEnum tipo;
     private Double valor;
     private String descricao;
